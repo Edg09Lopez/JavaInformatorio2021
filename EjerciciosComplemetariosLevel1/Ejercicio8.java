@@ -16,9 +16,7 @@ public class Ejercicio8 {
         System.out.println("Ciudad: ");
         String ciudad = cadena.nextLine();
 
-        System.out.println(apellNombre);
-        System.out.println(edad);
-        System.out.println(direccion);
-        System.out.println(ciudad);
+        System.out.println(ciudad + " - " + direccion + " - " + edad + " - " + apellNombre);
+    
     }
 }

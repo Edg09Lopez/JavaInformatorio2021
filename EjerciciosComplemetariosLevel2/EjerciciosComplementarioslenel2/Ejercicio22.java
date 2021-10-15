@@ -14,28 +14,25 @@ public class Ejercicio22 {
 			num.add(valor);
 			i++;
 		}
-   
-        System.out.println("Tamaño en la Lista : " + num.size());    
+       
 		System.out.println(num);
-
+        System.out.println("Tamaño en la Lista : " +num.size());    
+        System.out.println("\n");    
 
 		System.out.println("Enter number in last position: ");
 		int ultim = ingre.nextInt();
 		num.add(ultim);
-    
-        System.out.println("Tamaño en la Lista : " + num.size());    
-		for (Integer valor: num) {
-			System.out.print(valor + ", ");
-		}
-
+        System.out.println(num);    
+    	System.out.println("Tamaño en la Lista : " +num.size());
+        System.out.println("\n");    
+		
 		System.out.println("Enter number in first position: ");
 		int prim = ingre.nextInt();
         num.add(0, prim);
 		
-        System.out.println("Tamaño en la Lista : " + num.size());
-		for (Integer valor: num) {
-			System.out.print(valor + ", ");
-		}
+        System.out.println(num);    
+    	System.out.println("Tamaño en la Lista : " +num.size());
+        System.out.println("\n");
 
     }
 }

@@ -11,9 +11,10 @@ public class Ejercicio9 {
         String letter1 = cad.next();
 
         int veces = 0;
-        char[] letr = letter1.toCharArray();
+        char d = letter1.charAt(0);
         for (int i = 0; i < text.length(); i++) {
-            if (text.charAt(i) == letr) {
+            char c = text.charAt(i);
+            if (c == d) {
                 veces++;
             }
         }
