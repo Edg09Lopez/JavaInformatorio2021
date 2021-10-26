@@ -5,15 +5,22 @@ public class Ejercicio4 {
         Scanner Obj = new Scanner(System.in);
 
         System.out.print("Enter number: ");
-        Integer number = Obj.nextInt();
+        int number = Obj.nextInt();
+
+        Obj.close();
         System.out.println("El factorial de " + number + " es " + factorial(number));
     }
 
-    public static Integer factorial(Integer number) {
-        int mult = 1;
-        for (Integer i = 1; i<=number; i++) {
-            mult = mult * i;
-        }
-        return mult;
+    public static int factorial(int number) {
+        if (number>=0) {
+            if (number == 1 || number == 0) {
+                return 1;
+            } else {
+                return number * factorial(number - 1);
+            }  
+        } else {
+            System.out.println("No existe el factorial del numero ingresado");
+            return 0;
+        }      
     }
 }
