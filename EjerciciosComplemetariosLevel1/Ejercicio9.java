@@ -18,8 +18,6 @@ public class Ejercicio9 {
                 veces++;
             }
         }
-
-
         if (veces >0) {
             System.out.println("La letra " + letter1 + " se ha encontrado " + veces + " veces en el texto");
         } else {

@@ -12,7 +12,6 @@ public class Ejercicio51 {
         cargar(valorHora);
 
         ArrayList<Integer> total = new ArrayList<>();
-
         System.out.println(horasTrab);
         System.out.println(valorHora);
 

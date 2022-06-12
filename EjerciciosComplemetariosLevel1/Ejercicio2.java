@@ -12,13 +12,9 @@ public class Ejercicio2 {
         Integer seconNumber = numb.nextInt();
 
         System.out.println(firstNumber + " + " + seconNumber + " = " + (firstNumber+seconNumber));
-        
         System.out.println(firstNumber + " - " + seconNumber + " = " + (firstNumber-seconNumber));
-
         System.out.println(firstNumber + " * " + seconNumber + " = " + (firstNumber*seconNumber));
-
         System.out.println(firstNumber + " / " + seconNumber + " = " + (firstNumber/seconNumber));
-
         System.out.println(firstNumber + " % " + seconNumber + " = " + (firstNumber%seconNumber));
 
     }

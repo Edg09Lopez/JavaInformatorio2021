@@ -10,12 +10,10 @@ public class Ejercicio7 {
 
         ArrayList<Character> cadMay = new ArrayList<>();
         ArrayList<Character> cadMinus = new ArrayList<>();
-
         //guarda las letras del abecedario en mayuscula en ArrayList, llamado "cadMay"
         for (char letter='A'; letter <= 'Z'; letter++) {
             cadMay.add(letter);
         }
-
         //guarda las letras del abecedario en minuscula en otra ArrayList, llamado "cadminus"
         for (char letter='a'; letter <= 'z'; letter++) {
             cadMinus.add(letter);

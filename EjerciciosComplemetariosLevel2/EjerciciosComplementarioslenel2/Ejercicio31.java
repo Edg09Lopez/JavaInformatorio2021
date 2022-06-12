@@ -15,8 +15,7 @@ public class Ejercicio31 {
 
         //desordeno la lista usando la coleccion shufle 
         Collections.shuffle(baraja);
-        System.out.println("lista desordenada: "+ baraja);
-        
+        System.out.println("lista desordenada: "+ baraja);        
     }
 
     public static void cargar(List<Integer> baraja) {

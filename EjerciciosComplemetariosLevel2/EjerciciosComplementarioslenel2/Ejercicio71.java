@@ -2,7 +2,6 @@ import java.util.ArrayList;
 
 public class Ejercicio71 {
     public static void main(String[] args) {
-        
         frizzBuzzFuncion(1, 6);
         frizzBuzzFuncion(1, 9);
     }

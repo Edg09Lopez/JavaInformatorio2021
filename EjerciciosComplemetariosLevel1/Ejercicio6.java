@@ -9,10 +9,8 @@ public class Ejercicio6 {
 
         System.out.println("Enter another number: ");
         Integer seconNumber = obj.nextInt();
-
         System.out.println(firstNumber + " elvevado a " + seconNumber + " = " + potencia(firstNumber, seconNumber));
     }
-
     public static Integer potencia(Integer firstNumber, Integer seconNumber) {
         int i = 0;
         int mult = 1;
